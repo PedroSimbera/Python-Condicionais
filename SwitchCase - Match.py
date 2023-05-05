@@ -1,6 +1,6 @@
 # Switch Case - para o Python há o Match Case
 
-a = "Pedro"
+a = input("Qual nome: ")
 match a:
     case"Antonio":
         print("Não é Pedro")
@@ -8,3 +8,5 @@ match a:
         print("Não é Pedro")
     case"Jose":
         print("Não é Pedro")
+    case"Pedro":
+        print("Achou")
